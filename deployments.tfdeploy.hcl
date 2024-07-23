@@ -9,11 +9,3 @@ deployment "main" {
 store "varset" "tokens" {
   id = "varset-ys5uLJTSEqJZwZL6"
 }
-
-// store "vault" "garbage" {
-//  // Use as store.vault.garbage.whatever
-// }
-
-// store "vault_secrets" "hcp" {
-//  // Use as store.vault_secrets.hcp.whatever
-// }
