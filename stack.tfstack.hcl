@@ -15,6 +15,7 @@ variable "tfe_organization" {
 
 variable "tfe_token" {
   type = string
+  sensitive = true
 }
 
 provider "tfe" "main" {
