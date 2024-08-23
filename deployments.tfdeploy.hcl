@@ -7,5 +7,6 @@ deployment "main" {
 }
 
 store "varset" "tokens" {
-  id = "varset-ys5uLJTSEqJZwZL6"
+  id       = "varset-ys5uLJTSEqJZwZL6"
+  category = "terraform"
 }
