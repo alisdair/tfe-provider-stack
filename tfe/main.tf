@@ -8,5 +8,10 @@ terraform {
 }
 
 resource "tfe_workspace" "stack" {
-  name = "stack-workspace"
+  name       = "stack-workspace"
+  project_id = tfe_project.project.id
+}
+
+resource "tfe_project" "project" {
+  name = "managed"
 }
