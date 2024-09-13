@@ -34,3 +34,8 @@ component "tfe" {
     tfe = provider.tfe.main
   }
 }
+
+output "workspace_id" {
+  value = component.tfe.workspace_id
+  type = string
+}

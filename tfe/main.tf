@@ -15,3 +15,7 @@ resource "tfe_workspace" "stack" {
 resource "tfe_project" "project" {
   name = "managed"
 }
+
+output "workspace_id" {
+  value = tfe_workspace.stack.id
+}
